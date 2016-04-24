@@ -1,0 +1,410 @@
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+/** Navbar **/
+
+/*body {*/
+/*	padding-top:70px;*/
+/*}*/
+
+.navbar-header {
+  float: none;
+}
+.navbar-toggle {
+  display: block;
+}
+.navbar-collapse.collapse {
+  display: none!important;
+}
+.navbar-nav {
+  float: none!important;
+}
+.navbar-nav>li {
+  float: none;
+}
+.navbar-collapse.collapse.in{
+  display:block !important;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border: none;
+}
+
+/** General **/
+.home-text-dark {
+    color: #0d2b33;
+}
+
+.home-text-light {
+    color: #05424a;
+}
+
+.somos-header, .hortalizas-header, .establo-header, .granos-header, .planta-header {
+background: linear-gradient(
+    to right, 
+    #113e4c 0%, 
+    #113e4c 90%, 
+    #0d2b33 10%, 
+    #0d2b33 100%
+  );
+  height: 280px;
+  color: #fff;
+}
+
+.hortalizas-section-text, .establo-section-text, .granos-section-text {
+    background-color: #eaeaea;
+}
+
+.about, .veg, .establo, .granos, .planta {
+    padding: 50px 0;
+}
+
+.section-title {
+    height: 70px;
+}
+
+.section-subtitle {
+    height: 100px;
+}
+
+.section-title-right {
+    background: linear-gradient(
+    to left, 
+    #113e4c 0%, 
+    #113e4c 90%, 
+    #0d2b33 10%, 
+    #0d2b33 100%
+  );
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #05424a;
+    border-radius: 10px;
+}
+
+.pad-left {
+    padding-left: 50px;
+}
+
+/**********************
+* Homepage
+**********************/
+
+.jumbotron {
+    background: url("../img/cover.jpg") center center;
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+
+.jumbotron h1 {
+    font-size: 3.2em;
+}
+
+.header-logo {
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.logo-tagline {
+    margin-top: 20px;
+}
+
+.homepage-section {
+    height: 370px;
+    max-width: 100%;
+}
+
+.homepage-section-text {
+    position: relative;
+}
+
+.home-text-right, .home-text-left {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home-row-1 {
+    background: url("../img/Fotos-02.jpg") center center;
+    background-size: cover;
+}
+
+.home-row-2 {
+    background: url("../img/Fotos-03.jpg") center center;
+    background-size: cover;
+}
+
+.home-row-3 {
+    background: url("../img/Fotos-04.jpg") center center;
+    background-size: cover;
+}
+
+.home-row-4 {
+    background: url("../img/Fotos-05.jpg") center center;
+    background-size: cover;
+}
+
+.home-row-5 {
+    background: url("../img/planta-de-leche-1.jpg") center center;
+    background-size: cover;
+}
+
+.feature-1, .feature-5 {
+background: linear-gradient(
+    to right, 
+    #113e4c 0%, 
+    #113e4c 80%, 
+    #0d2b33 20%, 
+    #0d2b33 100%
+  );
+} 
+
+.feature-2 {
+background: linear-gradient(
+    to left, 
+    #113e4c 0%,
+    #113e4c 80%,
+    #0d2b33 20%,
+    #0d2b33 100%
+  );
+} 
+
+.feature-3 {
+background: linear-gradient(
+    to right, 
+    #005f6b 0%, 
+    #005f6b 80%, 
+    #05424a 20%, 
+    #05424a 100%
+  );
+} 
+
+.feature-4 {
+background: linear-gradient(
+    to left, 
+    #005f6b 0%,
+    #005f6b 80%,
+    #05424a 20%,
+    #05424a 100%
+  );
+} 
+
+/**********************
+* Quienes Somos Page 
+**********************/
+
+.somos-header-pic {
+    background: url("../img/estacion-de-granos-3.jpg") center center no-repeat;
+    background-size: cover;
+    height: 280px;
+}
+
+.somos-pic-1 {
+    background: url("../img/Rancho-11.JPG") center center;
+    background-size: cover;
+    height: 250px;
+}
+
+.somos-pic-2 {
+    background: url("../img/Rancho-9.JPG") center center;
+    background-size: cover;
+    height: 250px;
+}
+
+.somos-pic-3 {
+    background: url("../img/Rancho-10.JPG") center center;
+    background-size: cover;
+    height: 250px;
+}
+
+/**********************
+* Hortalizas Page 
+**********************/
+.hortalizas-header-pic {
+    background: url("../img/Fotos-02.jpg") center center no-repeat;
+    background-size: cover;
+    height: 280px;
+}
+
+.productos {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.registradas {
+    margin: 50px 0;
+}
+
+.veg-icon {
+    height: 150px;
+}
+
+.hortalizas-pic-1 {
+    background: url("../img/Siembra-7.jpg") center center;
+    background-size: cover;
+    height: 250px;
+}
+
+.hortalizas-pic-2 {
+    background: url("../img/Siembra-5.jpg") center center;
+    background-size: cover;
+    height: 250px;
+}
+
+.hortalizas-pic-3 {
+    background: url("../img/Siembra-6.jpg") center center;
+    background-size: cover;
+    height: 250px;
+}
+
+.nuestras {
+    text-align: center;
+    padding: 40px 0;
+}
+
+/**********************
+* Establo Lechero Page 
+**********************/
+.establo-header-pic{
+    background: url("../img/Fotos-03.jpg") center center no-repeat;
+    background-size: cover;
+    height: 280px;
+}
+
+.establo-pic-1 {
+    background: url("../img/establo-1.jpg") center center;
+    background-size: cover;
+    height: 250px;
+}
+
+.establo-pic-2 {
+    background: url("../img/establo-3.jpg") center center;
+    background-size: cover;
+    height: 250px;
+}
+
+.establo-pic-3 {
+    background: url("../img/establo-6.jpg") center center;
+    background-size: cover;
+    height: 250px;
+}
+
+/**************************
+* Estación de granos Page
+**************************/
+.granos-header-pic {
+    background: url("../img/Fotos-04.jpg") center center no-repeat;
+    background-size: cover;
+    height: 280px;
+}
+
+
+.granos-productos {
+    padding-top: 20px;
+}
+
+.granos-icon {
+    margin-left: 20px;
+    margin-right: 20px !important;
+    text-align: center;
+}
+
+.granos-icon img {
+    height: 80px;
+}
+
+.granos-icon p {
+    margin-top: 20px;
+}
+
+.granos-pic-1 {
+    background: url("../img/estacion-de-granos-3.jpg") center center;
+    background-size: cover;
+    height: 250px;
+}
+
+.granos-pic-2 {
+    background: url("../img/estacion-de-granos-2.jpg") center center;
+    background-size: cover;
+    height: 250px;
+}
+
+.granos-pic-3 {
+    background: url("../img/estacion-de-granos-1.jpg") center center;
+    background-size: cover;
+    height: 250px;
+}
+
+/**************************
+* Planta de leche Page
+**************************/
+.planta-header-pic {
+    background: url("../img/Fotos-06.jpg") center center no-repeat;
+    background-size: cover;
+    height: 280px;
+}
+
+.planta-pic-1 {
+    background: url("../img/planta-de-leche-2.jpg") center center;
+    background-size: cover;
+    height: 250px;
+}
+
+.planta-pic-2 {
+    background: url("../img/planta-de-leche-3.jpg") center center;
+    background-size: cover;
+    height: 250px;
+}
+
+.planta-pic-3 {
+    background: url("../img/planta-de-leche-4.jpg") center center;
+    background-size: cover;
+    height: 250px;
+}
+
+/**********************
+* Footer 
+**********************/
+
+footer {
+    background-color: #343838;
+    padding: 20px;
+    color: #fff;
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    width: 100%;
+}
+
+.footer-logo {
+    height: 100px;
+}
+
+/*span.footer-text {*/
+/*    margin-right: 5px;*/
+/*}*/
+
+.footer-icons {
+    height: 20px;
+    padding-top: 5px;
+}
+
+
+* {
+    /*margin-right: 0 !important;*/
+}
+
+h2 {
+    margin-top: 0;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
