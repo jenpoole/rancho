@@ -1,66 +1,57 @@
 /**********************
 * Fonts
 **********************/
+body {
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: myriadPro;
+    src: url(../fonts/MyriadPro-It-2.otf);
+}
+
+@font-face {
+    font-family: oxygenBold;
+    src: url(../fonts/Oxygen-Bold.ttf);
+}
 
 
-/*@font-face {*/
+@font-face {
+    font-family: oxygenLight;
+    src: url(../fonts/Oxygen-Light.ttf);
+}
 
 
-/*    font-family: myriadPro;*/
+@font-face {
+    font-family: oxygenRegular;
+    src: url(../fonts/Oxygen-Regular.ttf);
+}
+
+@font-face {
+    font-family: pierRegular;
+    src: url(../fonts/pier-regular-2.otf);
+}
+
+.jumbotron h1 {
+    font-family: oxygenRegular;
+    font-size: 2em;
+    color: #1d1d1b;
+}
+
+#homepage h2 {
+    font-size: 3em;
+    font-family: oxygenRegular;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
 
 
-/*    src: url(../fonts/MyriadPro-It 2.otf);*/
-
-
-/*}*/
-
-
-/*@font-face {*/
-
-
-/*    font-family: oxygenBold;*/
-
-
-/*    src: url(../fonts/MyriadPro-It 2.otf);*/
-
-
-/*}*/
-
-
-/*@font-face {*/
-
-
-/*    font-family: oxygenLight;*/
-
-
-/*    src: url(../fonts/MyriadPro-It 2.otf);*/
-
-
-/*}*/
-
-
-/*@font-face {*/
-
-
-/*    font-family: oxygenRegular;*/
-
-
-/*    src: url(../fonts/MyriadPro-It 2.otf);*/
-
-
-/*}*/
-
-
-/*@font-face {*/
-
-
-/*    font-family: pierRegular;*/
-
-
-/*    src: url(../fonts/MyriadPro-It 2.otf);*/
-
-
-/*}*/
 
 
 /**********************
@@ -102,6 +93,9 @@
 .navbar-default .navbar-toggle,
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
+    font-family: pierRegular;
+    font-size: 1.5em;
+    text-transform: uppercase;
     background-color: #05424a;
     color: #fff;
 }
@@ -141,7 +135,6 @@
 .dropdown-menu>li>a {
     color: #fff;
 }
-
 
 /**********************
 * Contact Modal
@@ -238,10 +231,6 @@ button.close:hover {
     height: 100vh;
     margin-bottom: 0;
     padding-top: 10px;
-}
-
-.jumbotron h1 {
-    font-size: 3.2em;
 }
 
 .header-logo {
@@ -499,11 +488,11 @@ button.close:hover {
 **********************/
 
 footer {
+    font-size: 0.9em;
+    font-family: oxygenRegular;
     background-color: #343838;
     padding: 20px;
     color: #fff;
-    /*position: absolute;*/
-    /*bottom: 0;*/
     width: 100%;
 }
 
@@ -514,6 +503,7 @@ footer {
 .footer-text {
     padding-top: 50px;
     padding-left: 25px;
+    font-size: 1em;
 }
 
 .footer-icons {
