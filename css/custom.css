@@ -47,6 +47,15 @@ h3 {
     color: #1d1d1b;
 }
 
+#somos .home-text-right, 
+#hortalizas .home-text-right, 
+#establo .home-text-right, 
+#granos .home-text-right, 
+#planta .home-text-right {
+    left: 65%;
+    top: 50%
+}
+
 #homepage h2 {
     font-size: 3em;
     font-family: oxygenRegular;
@@ -83,7 +92,7 @@ h4 {
 #planta p,
 #planta ul {
     font-family: oxygenRegular;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 ul.content-list li {
@@ -251,6 +260,25 @@ button.close:hover {
     padding-left: 50px;
 }
 
+.pad-top {
+    padding-top: 10px;
+}
+
+.pad-right-45 {
+    padding-right: 45px;
+}
+
+.pad-right-80 {
+    padding-right: 80px;
+}
+
+#hortalizas .pad-marcas {
+    font-size: 2.2em;
+}
+
+.first-text {
+    padding-top: 30px;
+}
 
 /**********************
 * Homepage
@@ -274,18 +302,23 @@ button.close:hover {
     margin-top: 20px;
 }
 
-.mas {
-    color: #fff;
-    padding-top: 100px;
+.jumbotron h5{
     margin-bottom: 0;
     padding-bottom: 0;
+    font-weight: 500;
+}
+
+.mas {
+    color: #fff;
+    padding-top: 120px;
     font-family: pierRegular;
     font-size: 1em;
-    font-weight: bold;
+    
 }
 
 .mas-arrow {
-    height: 80px;
+    /*height: 40px;*/
+    font-size: 2em;
     margin-top: 0;
     padding-top: 0;
 }
@@ -606,6 +639,14 @@ h2, h3 {
 **********************/
 
 @media screen and (max-width: 995px) {
+    .header-logo {
+        height: 100px;
+    }
+    
+    .jumbotron h1 {
+        font-size: 1.8em;
+    }
+    
     .footer-text {
         padding-top: 20px;
         padding-bottom: 20px;
@@ -618,5 +659,29 @@ h2, h3 {
     .map {
     padding-bottom: 75%; // This is the aspect ratio
   
+    }
+}
+
+@media screen and (max-width: 550px){
+    .header-logo {
+        height: 70px;
+    }
+    
+    .jumbotron h1 {
+        font-size: 1.5em;
+    }
+    
+    .pad-left {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .jumbotron h1 {
+        font-size: 1.2em;
+    }
+    
+    #homepage h2 {
+        font-size: 2em;
     }
 }
