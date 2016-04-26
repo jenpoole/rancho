@@ -3,6 +3,7 @@
 **********************/
 body {
     font-size: 16px;
+    color: #1d1d1d;
 }
 
 @font-face {
@@ -32,6 +33,14 @@ body {
     src: url(../fonts/pier-regular-2.otf);
 }
 
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
 .jumbotron h1 {
     font-family: oxygenRegular;
     font-size: 2em;
@@ -43,14 +52,46 @@ body {
     font-family: oxygenRegular;
 }
 
-h2 {
-    font-size: 2.5em;
+#somos h2,
+#hortalizas h2,
+#establo h2, 
+#granos h2,
+#planta h2 {
+    font-family: oxygenRegular;
+    font-size: 2.6em;
 }
 
-h3 {
+#somos h3,
+#hortalizas h3,
+#establo h3, 
+#granos h3,
+#planta h3 {
+    font-family: oxygenRegular;
     font-size: 2em;
 }
 
+h4 {
+    font-size: 1.3em;
+}
+
+#homepage p,
+#somos p,
+#hortalizas p,
+#establo p, 
+#granos p,
+#granos ul,
+#planta p,
+#planta ul {
+    font-family: oxygenRegular;
+    font-size: 1.3em;
+}
+
+ul.content-list li {
+    list-style: none;
+    background: url("../img/icons/list-bullet.png") no-repeat left center;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
 
 
 
@@ -152,15 +193,6 @@ button.close:hover {
 }
 
 
-/*.btnSubmit {*/
-
-
-/*    text-align: right !important;*/
-
-
-/*}*/
-
-
 /**********************
 * General
 **********************/
@@ -225,7 +257,7 @@ button.close:hover {
 **********************/
 
 .jumbotron {
-    background: url("../img/cover.jpg") center center;
+    background: url("../img/cover.jpg") center center no-repeat;
     background-size: cover;
     text-align: center;
     height: 100vh;
@@ -240,6 +272,22 @@ button.close:hover {
 
 .logo-tagline {
     margin-top: 20px;
+}
+
+.mas {
+    color: #fff;
+    padding-top: 100px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-family: pierRegular;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.mas-arrow {
+    height: 80px;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .homepage-section {
@@ -259,28 +307,32 @@ button.close:hover {
     transform: translate(-50%, -50%);
 }
 
+/*a.homepage-section-text:hover {*/
+/*    color: #fff;*/
+/*}*/
+
 .home-row-1 {
-    background: url("../img/Fotos-02.jpg") center center;
+    background: url("../img/Fotos-02.jpg") center center no-repeat;
     background-size: cover;
 }
 
 .home-row-2 {
-    background: url("../img/Fotos-03.jpg") center center;
+    background: url("../img/Fotos-03.jpg") center center no-repeat;
     background-size: cover;
 }
 
 .home-row-3 {
-    background: url("../img/Fotos-04.jpg") center center;
+    background: url("../img/Fotos-04.jpg") center center no-repeat;
     background-size: cover;
 }
 
 .home-row-4 {
-    background: url("../img/Fotos-05.jpg") center center;
+    background: url("../img/Fotos-05.jpg") center center no-repeat;
     background-size: cover;
 }
 
 .home-row-5 {
-    background: url("../img/planta-de-leche-1.jpg") center center;
+    background: url("../img/planta-de-leche-1.jpg") center center no-repeat;
     background-size: cover;
 }
 
@@ -313,21 +365,21 @@ button.close:hover {
 }
 
 .somos-pic-1 {
-    background: url("../img/Rancho-11.JPG") center center;
+    background: url("../img/Rancho-11.JPG") center center no-repeat;
     background-size: cover;
-    height: 250px;
+    height: 350px;
 }
 
 .somos-pic-2 {
-    background: url("../img/Rancho-9.JPG") center center;
+    background: url("../img/Rancho-9.JPG") center center no-repeat;
     background-size: cover;
-    height: 250px;
+    height: 350px;
 }
 
 .somos-pic-3 {
-    background: url("../img/Rancho-10.JPG") center center;
+    background: url("../img/Rancho-10.JPG") center center no-repeat;
     background-size: cover;
-    height: 250px;
+    height: 350px;
 }
 
 
@@ -354,22 +406,26 @@ button.close:hover {
     height: 150px;
 }
 
+.veg-name {
+    padding-top: 20px;
+}
+
 .hortalizas-pic-1 {
-    background: url("../img/Siembra-7.jpg") center center;
+    background: url("../img/Siembra-7.jpg") center center no-repeat;
     background-size: cover;
-    height: 250px;
+    height: 350px;
 }
 
 .hortalizas-pic-2 {
-    background: url("../img/Siembra-5.jpg") center center;
+    background: url("../img/Siembra-5.jpg") center center no-repeat;
     background-size: cover;
-    height: 250px;
+    height: 350px;
 }
 
 .hortalizas-pic-3 {
-    background: url("../img/Siembra-6.jpg") center center;
+    background: url("../img/Siembra-6.jpg") center center no-repeat;
     background-size: cover;
-    height: 250px;
+    height: 350px;
 }
 
 .nuestras {
@@ -389,21 +445,21 @@ button.close:hover {
 }
 
 .establo-pic-1 {
-    background: url("../img/establo-1.jpg") center center;
+    background: url("../img/establo-1.jpg") center center no-repeat;
     background-size: cover;
-    height: 250px;
+    height: 350px;
 }
 
 .establo-pic-2 {
-    background: url("../img/establo-3.jpg") center center;
+    background: url("../img/establo-3.jpg") center center no-repeat;
     background-size: cover;
-    height: 250px;
+    height: 350px;
 }
 
 .establo-pic-3 {
-    background: url("../img/establo-6.jpg") center center;
+    background: url("../img/establo-6.jpg") center center no-repeat;
     background-size: cover;
-    height: 250px;
+    height: 350px;
 }
 
 
@@ -428,29 +484,50 @@ button.close:hover {
 }
 
 .granos-icon img {
-    height: 80px;
+    height: 60px;
 }
 
-.granos-icon p {
+.granos-icon .icon-dark {
+    color: #0d2b33;
+}
+
+#granos .granos-icon p {
     margin-top: 20px;
+    font-size: 1.1em;
+    color: #113e4c;
+}
+
+.map {
+    position: relative;
+    padding-bottom: 35%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+
+.map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 .granos-pic-1 {
-    background: url("../img/estacion-de-granos-3.jpg") center center;
+    background: url("../img/estacion-de-granos-3.jpg") center center no-repeat;
     background-size: cover;
-    height: 250px;
+    height: 350px;
 }
 
 .granos-pic-2 {
-    background: url("../img/estacion-de-granos-2.jpg") center center;
+    background: url("../img/estacion-de-granos-2.jpg") center center no-repeat;
     background-size: cover;
-    height: 250px;
+    height: 350px;
 }
 
 .granos-pic-3 {
-    background: url("../img/estacion-de-granos-1.jpg") center center;
+    background: url("../img/estacion-de-granos-1.jpg") center center no-repeat;
     background-size: cover;
-    height: 250px;
+    height: 350px;
 }
 
 
@@ -465,21 +542,21 @@ button.close:hover {
 }
 
 .planta-pic-1 {
-    background: url("../img/planta-de-leche-2.jpg") center center;
+    background: url("../img/planta-de-leche-2.jpg") center center no-repeat;
     background-size: cover;
-    height: 250px;
+    height: 350px;
 }
 
 .planta-pic-2 {
-    background: url("../img/planta-de-leche-3.jpg") center center;
+    background: url("../img/planta-de-leche-3.jpg") center center no-repeat;
     background-size: cover;
-    height: 250px;
+    height: 350px;
 }
 
 .planta-pic-3 {
-    background: url("../img/planta-de-leche-4.jpg") center center;
+    background: url("../img/planta-de-leche-4.jpg") center center no-repeat;
     background-size: cover;
-    height: 250px;
+    height: 350px;
 }
 
 
@@ -488,10 +565,10 @@ button.close:hover {
 **********************/
 
 footer {
-    font-size: 0.9em;
+    font-size: 0.7em;
     font-family: oxygenRegular;
     background-color: #343838;
-    padding: 20px;
+    padding: 40px 20px;
     color: #fff;
     width: 100%;
 }
@@ -503,7 +580,7 @@ footer {
 .footer-text {
     padding-top: 50px;
     padding-left: 25px;
-    font-size: 1em;
+    font-size: 1.6em;
 }
 
 .footer-icons {
@@ -514,7 +591,7 @@ footer {
 
 /** General **/
 
-h2 {
+h2, h3 {
     margin-top: 0;
 }
 
@@ -536,5 +613,10 @@ h2 {
     }
     .footer-icons {
         margin-bottom: 10px;
+    }
+    
+    .map {
+    padding-bottom: 75%; // This is the aspect ratio
+  
     }
 }
