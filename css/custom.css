@@ -92,6 +92,7 @@ h4 {
 #granos p,
 #granos ul.content-list,
 #engorda p,
+#engorda ul.content-list,
 #planta p,
 #planta ul.content-list {
     font-family: oxygenRegular;
@@ -380,15 +381,6 @@ button.close:hover {
     transform: translate(-50%, -50%);
 }
 
-
-/*a.homepage-section-text:hover {*/
-
-
-/*    color: #fff;*/
-
-
-/*}*/
-
 .home-row-1 {
     background: url("../img/Fotos-02.jpg") center center no-repeat;
     background-size: cover;
@@ -577,7 +569,7 @@ button.close:hover {
 
 .map {
     position: relative;
-    padding-bottom: 35%; // This is the aspect ratio
+    padding-bottom: 35%; /* This is the aspect ratio */
     height: 0;
     overflow: hidden;
 }
@@ -727,15 +719,13 @@ h3 {
 }
 
 .map {
-    padding-bottom: 75%; // This is the aspect ratio
+    padding-bottom: 75%; /* This is the aspect ratio */
 }
 
 .granos-icon {
     margin-bottom: 35px;
 }
 
-
-}
 @media screen and (max-width: 550px) {
     .header-logo {
         height: 70px;
@@ -820,10 +810,27 @@ h3 {
     }
     
     .mas {
-    padding-top: 150px;
-}
+        padding-top: 150px;
+    }
     
     .page-top {
         margin-top: -50px;
     }
+    
+    .map {
+    position: relative;
+    padding-bottom: 35%;
+    height: 0;
+    overflow: hidden;
 }
+
+.map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+}
+
+
