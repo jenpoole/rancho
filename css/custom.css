@@ -87,9 +87,9 @@ h4 {
 #hortalizas p,
 #establo p,
 #granos p,
-#granos ul,
+#granos ul.content-list,
 #planta p,
-#planta ul {
+#planta ul.content-list {
     font-family: oxygenRegular;
     font-size: 1.2em;
 }
@@ -132,7 +132,8 @@ ul.nav.navbar-nav{
 
 .hamburger-collapse.hamburger.in {
     display: block !important;
-    background-color: #005f6b;
+    /*background-color: #005f6b;*/
+    background-color: #343838;
 }
 
 .navbar-default,
@@ -148,7 +149,8 @@ ul.nav.navbar-nav{
     font-family: pierRegular;
     font-size: 1.5em;
     text-transform: uppercase;
-    background-color: #05424a;
+    /*background-color: #05424a;*/
+    background-color: #1d1d1d;
     color: #fff;
 }
 
@@ -157,14 +159,16 @@ ul.nav.navbar-nav{
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-    background-color: #05424a;
+    /*background-color: #05424a;*/
+    background-color: #1d1d1d;
     color: #fff;
 }
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-    background-color: #05424a;
+    /*background-color: #05424a;*/
+    background-color: #1d1d1d;
     color: #fff;
 }
 
@@ -177,19 +181,40 @@ ul.nav.navbar-nav{
 .dropdown-menu>.active>a:focus,
 .dropdown-menu>.active>a:hover {
     color: #fff;
-    background-color: #05424a;
+    /*background-color: #05424a;*/
+    background-color: #1d1d1d
 }
 
 .navbar-nav>li>.dropdown-menu {
-    background-color: #005f6b;
+    /*background-color: #005f6b;*/
+    background-color: #343838;
 }
 
+.menu-title,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a,
 .dropdown-menu>li>a {
     color: #fff;
 }
 
 div#js-bootstrap-offcanvas {
     overflow: hidden;
+    text-align: left;
+}
+
+/* Transparent menu icon */
+.navbar-toggle.offcanvas-toggle {
+    margin-top: 30px;
+    margin-right: 30px;
+    background-color: transparent;
+    color: #1d1d1d;
+}
+
+#somos .navbar-toggle.offcanvas-toggle,
+#hortalizas .navbar-toggle.offcanvas-toggle,
+#establo .navbar-toggle.offcanvas-toggle,
+#granos .navbar-toggle.offcanvas-toggle,
+#planta .navbar-toggle.offcanvas-toggle {
+    color: #fff;
 }
 
 
@@ -307,7 +332,7 @@ button.close:hover {
 }
 
 .logo-tagline {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .jumbotron h5 {
