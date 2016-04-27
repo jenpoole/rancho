@@ -791,6 +791,16 @@ h3 {
         background-color: transparent;
     }
     
+    #homepage button.navbar-toggle.offcanvas-toggle.js-offcanvas-has-events {
+    color: #1d1d1d;
+}
+
+#homepage button.navbar-toggle.offcanvas-toggle.js-offcanvas-has-events:hover,
+#homepage button.navbar-toggle.offcanvas-toggle.js-offcanvas-has-events:active,
+#homepage button.navbar-toggle.offcanvas-toggle.js-offcanvas-has-events:focus {
+    color: #fff;
+}
+    
     .navbar-toggle.offcanvas-toggle {
         margin-top: 0;
         padding-top: 0;
@@ -808,6 +818,10 @@ h3 {
     .logo-tagline {
         margin-top: 80px;
     }
+    
+    .mas {
+    padding-top: 150px;
+}
     
     .page-top {
         margin-top: -50px;
