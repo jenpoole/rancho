@@ -1,0 +1,170 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nav Menu</title>
+  <link rel="stylesheet" href="bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="jasny.min.css" type="text/css" />
+</head>
+<body>
+  <div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
+      <a class="navmenu-brand" href="#">Project name</a>
+      <ul class="nav navmenu-nav">
+        <li><a href="../navmenu/">Slide in</a></li>
+        <li class="active"><a href="./">Push</a></li>
+        <li><a href="../navmenu-reveal/">Reveal</a></li>
+        <li><a href="../navbar-offcanvas/">Off canvas navbar</a></li>
+      </ul>
+      <ul class="nav navmenu-nav">
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+          <ul class="dropdown-menu navmenu-nav">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Nav header</li>
+            <li><a href="#">Separated link</a></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="navbar navbar-default navbar-fixed-top">
+      <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+  
+  
+  
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="bootstrap.min.js"></script>
+  <script type="text/javascript" src="jasny.min.js"></script>
+  <script type="text/javascript" src="offcanvas.js"></script>
+</body>
+</html>
+
+
+
+<!--<nav class="navbar navbar-default navbar-static-top">-->
+<!--    <div class="container">-->
+<!--      <div class="navbar-header">-->
+<!--        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">-->
+<!--          MENÚ-->
+<!--        </button>-->
+<!--      </div>-->
+      <!-- .navbar-header -->
+
+<!--      <div class="navbar-collapse collapse">-->
+<!--        <ul class="nav navbar-nav">-->
+<!--          <li class="active"><a href="#">Rancho Lucero</a></li>-->
+<!--          <li><a href="quienes-somos.html">Quiénes somos</a></li>-->
+<!--          <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nuestras empresas <span class="caret"></span></a>-->
+<!--            <ul class="dropdown-menu">-->
+<!--              <li><a href="hortalizas.html">Producción de Hortalizas</a></li>-->
+<!--              <li><a href="establo-lechero.html">Establo Lechero</a></li>-->
+<!--              <li><a href="estacion-de-granos.html">Estación de Granos</a></li>-->
+<!--              <li><a href="engorda.html">Engorda</a></li>-->
+<!--              <li><a href="planta-de-leche.html">Planta de Leche</a></li>-->
+<!--            </ul>-->
+<!--          </li>-->
+<!--          <li><a href="#contact" data-toggle="modal" data-target="#contactModal">Contacto</a></li>-->
+<!--        </ul>-->
+<!--      </div>-->
+      <!-- .navbar-collapse -->
+<!--    </div>-->
+    <!-- .container -->
+<!--  </nav>-->
+
+  <!-- Modal -->
+<!--  <div id="contactModal" class="modal fade" role="dialog">-->
+<!--    <div class="modal-dialog">-->
+
+      <!-- Modal content-->
+<!--      <div class="modal-content">-->
+<!--        <div class="modal-header">-->
+<!--          <button type="button" class="close" data-dismiss="modal">&times;</button>-->
+<!--          <h4 class="modal-title">Contacto</h4>-->
+<!--        </div>-->
+
+<!--        <div class="modal-body">-->
+<!--          <form>-->
+<!--            <div class="form-group">-->
+<!--              <label for="nombre"></label>-->
+<!--              <input type="text" class="form-control" id="nombre" placeholder="Nombre">-->
+<!--            </div>-->
+
+<!--            <div class="form-group">-->
+<!--              <label for="correo-electronico"></label>-->
+<!--              <input type="email" class="form-control" id="correo-electronico" placeholder="Correo electrónico">-->
+<!--            </div>-->
+
+<!--            <div class="form-group">-->
+<!--              <label for="telefono"></label>-->
+<!--              <input type="tel" class="form-control" id="telefono" placeholder="Teléfono (Opcional)">-->
+<!--            </div>-->
+
+<!--            <div class="form-group">-->
+<!--              <label for="select-interest"></label>-->
+<!--              <select class="form-control" id="select-interest">-->
+<!--                <option>Selecciona tu interés</option>-->
+<!--                <option>Producción De Hortalizas</option>-->
+<!--                <option>Establo Lechero</option>-->
+<!--                <option>Estación De Granos</option>-->
+<!--                <option>Engorda</option>-->
+<!--                <option>Planta De Leche</option>-->
+<!--              </select>-->
+<!--            </div>-->
+
+<!--            <div class="form-group">-->
+<!--              <label for="mensaje"></label>-->
+<!--              <textarea class="form-control" rows="5" id="mensaje" placeholder="Mensaje"></textarea>-->
+<!--            </div>-->
+            
+<!--            <button type="submit" class="btn btn-default">Enviar</button>-->
+<!--          </form>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+
+
+<!-- OLD NAV -->
+    
+    <nav class="navbar navbar-default navbar-static-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          MENÚ
+        </button>
+      </div>
+      <!-- .navbar-header -->
+
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Rancho Lucero</a></li>
+          <li><a href="quienes-somos.html">Quiénes somos</a></li>
+          <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nuestras empresas <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="hortalizas.html">Producción de Hortalizas</a></li>
+              <li><a href="establo-lechero.html">Establo Lechero</a></li>
+              <li><a href="estacion-de-granos.html">Estación de Granos</a></li>
+              <li><a href="engorda.html">Engorda</a></li>
+              <li><a href="planta-de-leche.html">Planta de Leche</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact" data-toggle="modal" data-target="#contactModal">Contacto</a></li>
+        </ul>
+      </div>
+      <!-- .navbar-collapse -->
+    </div>
+    <!-- .container -->
+  </nav>

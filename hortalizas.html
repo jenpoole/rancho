@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rancho Lucero | Hortalizas</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.offcanvas.css">
     <link rel="stylesheet" href="css/custom.css">
 </head>
 <body id="hortalizas">
@@ -14,17 +15,24 @@
      <div class="row">
          <div class="col-md-4 text-right hortalizas-header homepage-section-text"><h2 class="home-text-right pad-right-45">Producción de<br>hortalizas</h2></div>
          <div class="col-md-8 hortalizas-header-pic">
-             <nav class="navbar navbar-default navbar-static-top">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          MENÚ
-        </button>
-      </div>
-      <!-- .navbar-header -->
+             <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle offcanvas-toggle" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
 
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="index.html">Rancho Lucero</a></li>
+            <div class="navbar-offcanvas navbar-offcanvas-right navbar-offcanvas-touch hamburger hamburger-collapse" id="js-bootstrap-offcanvas">
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
+                <ul class="nav navbar-nav">
+                    <p>MENÚ</p>
+                    <li><a href="index.html">Rancho Lucero</a></li>
           <li><a href="quienes-somos.html">Quiénes somos</a></li>
           <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nuestras empresas <span class="caret"></span></a>
             <ul class="dropdown-menu">
@@ -36,10 +44,15 @@
             </ul>
           </li>
           <li><a href="#contact" data-toggle="modal" data-target="#contactModal">Contacto</a></li>
-        </ul>
-      </div>
-      <!-- .navbar-collapse -->
-  </nav>
+                </ul>
+
+            </div>
+            <!-- / .navbar-offcanvas .navbar-offcanvas-touch -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+  
+
 
   <!-- Modal -->
   <div id="contactModal" class="modal fade" role="dialog">
@@ -214,7 +227,11 @@
      </footer>
      
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-     <script src="js/bootstrap.min.js"></script>
-     <script src="js/custom.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.offcanvas.min.js"></script>
+  
+  <script>
+    $("#js-bootstrap-offcanvas").trigger("offcanvas.toggle"); // Toggle open & close
+  </script>
 </body>
 </html>    

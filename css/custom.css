@@ -1,6 +1,7 @@
 /**********************
 * Fonts
 **********************/
+
 body {
     font-size: 16px;
     color: #1d1d1d;
@@ -16,12 +17,10 @@ body {
     src: url(../fonts/Oxygen-Bold.ttf);
 }
 
-
 @font-face {
     font-family: oxygenLight;
     src: url(../fonts/Oxygen-Light.ttf);
 }
-
 
 @font-face {
     font-family: oxygenRegular;
@@ -47,10 +46,10 @@ h3 {
     color: #1d1d1b;
 }
 
-#somos .home-text-right, 
-#hortalizas .home-text-right, 
-#establo .home-text-right, 
-#granos .home-text-right, 
+#somos .home-text-right,
+#hortalizas .home-text-right,
+#establo .home-text-right,
+#granos .home-text-right,
 #planta .home-text-right {
     left: 65%;
     top: 50%
@@ -63,7 +62,7 @@ h3 {
 
 #somos h2,
 #hortalizas h2,
-#establo h2, 
+#establo h2,
 #granos h2,
 #planta h2 {
     font-family: oxygenRegular;
@@ -72,7 +71,7 @@ h3 {
 
 #somos h3,
 #hortalizas h3,
-#establo h3, 
+#establo h3,
 #granos h3,
 #planta h3 {
     font-family: oxygenRegular;
@@ -86,7 +85,7 @@ h4 {
 #homepage p,
 #somos p,
 #hortalizas p,
-#establo p, 
+#establo p,
 #granos p,
 #granos ul,
 #planta p,
@@ -103,7 +102,6 @@ ul.content-list li {
 }
 
 
-
 /**********************
 * Menu
 **********************/
@@ -116,8 +114,12 @@ ul.content-list li {
     display: block;
 }
 
-.navbar-collapse.collapse {
+.hamburger-collapse.hamburger {
     display: none!important;
+}
+
+ul.nav.navbar-nav{
+    padding-top: 20px;
 }
 
 .navbar-nav {
@@ -128,7 +130,7 @@ ul.content-list li {
     float: none;
 }
 
-.navbar-collapse.collapse.in {
+.hamburger-collapse.hamburger.in {
     display: block !important;
     background-color: #005f6b;
 }
@@ -185,6 +187,11 @@ ul.content-list li {
 .dropdown-menu>li>a {
     color: #fff;
 }
+
+div#js-bootstrap-offcanvas {
+    overflow: hidden;
+}
+
 
 /**********************
 * Contact Modal
@@ -280,6 +287,7 @@ button.close:hover {
     padding-top: 30px;
 }
 
+
 /**********************
 * Homepage
 **********************/
@@ -302,7 +310,7 @@ button.close:hover {
     margin-top: 20px;
 }
 
-.jumbotron h5{
+.jumbotron h5 {
     margin-bottom: 0;
     padding-bottom: 0;
     font-weight: 500;
@@ -310,10 +318,9 @@ button.close:hover {
 
 .mas {
     color: #fff;
-    padding-top: 120px;
+    padding-top: 150px;
     font-family: pierRegular;
     font-size: 1em;
-    
 }
 
 .mas-arrow {
@@ -340,8 +347,13 @@ button.close:hover {
     transform: translate(-50%, -50%);
 }
 
+
 /*a.homepage-section-text:hover {*/
+
+
 /*    color: #fff;*/
+
+
 /*}*/
 
 .home-row-1 {
@@ -624,7 +636,8 @@ footer {
 
 /** General **/
 
-h2, h3 {
+h2,
+h3 {
     margin-top: 0;
 }
 
@@ -642,11 +655,9 @@ h2, h3 {
     .header-logo {
         height: 100px;
     }
-    
     .jumbotron h1 {
         font-size: 1.8em;
     }
-    
     .footer-text {
         padding-top: 20px;
         padding-bottom: 20px;
@@ -655,22 +666,18 @@ h2, h3 {
     .footer-icons {
         margin-bottom: 10px;
     }
-    
     .map {
-    padding-bottom: 75%; // This is the aspect ratio
-  
+        padding-bottom: 75%; // This is the aspect ratio
     }
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 550px) {
     .header-logo {
         height: 70px;
     }
-    
     .jumbotron h1 {
         font-size: 1.5em;
     }
-    
     .pad-left {
         padding-top: 10px;
     }
@@ -680,7 +687,6 @@ h2, h3 {
     .jumbotron h1 {
         font-size: 1.2em;
     }
-    
     #homepage h2 {
         font-size: 2em;
     }
