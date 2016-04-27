@@ -659,10 +659,14 @@ footer {
 }
 
 .footer-text {
-    padding-top: 50px;
-    padding-left: 25px;
+    padding-top: 50px !important;
+    padding-left: 25px !important;
     font-size: 1.6em;
 }
+
+/*img.footer-icons{*/
+/*    margin-bottom: 0 !important;*/
+/*}*/
 
 .footer-icons {
     height: 20px;
@@ -714,9 +718,9 @@ h3 {
     padding-left: 18px;
 }
 
-.footer-icons {
-    margin-bottom: 10px;
-}
+/*.footer-icons {*/
+/*    margin-bottom: 10px;*/
+/*}*/
 
 .map {
     padding-bottom: 75%; /* This is the aspect ratio */
