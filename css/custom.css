@@ -739,9 +739,9 @@ h3 {
         font-size: 1.5em;
     }
     
-    .pad-left {
-        padding-top: 10px;
-    }
+    /*.pad-left {*/
+    /*    padding-top: 10px;*/
+    /*}*/
 }
 @media screen and (max-width: 450px) {
     .jumbotron h1 {
